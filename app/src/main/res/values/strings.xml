@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Android-Storage</string>
+    <string name="external_storage">External Storage</string>
+    <string name="internal_storage">Internal Storage</string>
 </resources>
