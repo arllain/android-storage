@@ -25,13 +25,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/file_content"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="@+id/edtFileName"
         app:layout_constraintStart_toStartOf="@+id/edtFileName"
-        app:layout_constraintTop_toBottomOf="@+id/edtFileName"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/edtFileName" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineLeft"
@@ -89,5 +89,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rgStorageType" />
+
+    <CheckBox
+        android:id="@+id/cbJeckPackSecurity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JetPack Security"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
+        app:layout_constraintTop_toBottomOf="@+id/edtFileContent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
